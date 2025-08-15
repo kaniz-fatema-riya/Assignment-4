@@ -1,7 +1,7 @@
 
 function resultReport(marks) {
   if (!Array.isArray(marks)) {
-    return 'invalid';
+    return 'Invalid';
   }
   
   let totalMark = 0;
@@ -16,7 +16,8 @@ function resultReport(marks) {
   for (const singleMark of marks) {
     if (singleMark < 40) {
       fail.push(singleMark);
-    } else {
+    }
+     else {
       pass.push(singleMark);
     }
   }
@@ -37,7 +38,7 @@ function resultReport(marks) {
 
 
 
-const result = resultReport([]);
+const result = resultReport([12, 21, 30, 51, 52,62]);
 console.log(result);
 
 

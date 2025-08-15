@@ -9,5 +9,5 @@ function totalFine( fare ) {
           }
 }
 
-const result = totalFine(552);
+const result = totalFine(200);
 console.log(result);
